@@ -68,6 +68,30 @@ Trois scénarios fonctionnels représentatifs du site Bonjour RATP ont été sé
 
 ---
 
+## 🧪 Résultats par modèle et stratégie
+
+| Modèle / Outil     | Scénario     | Stratégie | Succès (Fonctionnel) | Corrections | Conformité | Palier Temps |
+|--------------------|--------------|-----------|----------------------|-------------|------------|--------------|
+| ChatGPT Cloud      | Itinéraire   | Zero-Shot | ✅ 1                 | Faible      | 100%       | Palier 1     |
+| ChatGPT Cloud      | Aéroport     | Zero-Shot | ❌ 0                 | Faible      | 100%       | Palier 1     |
+| ChatGPT Cloud      | Footer       | Zero-Shot | ❌ 0                 | Faible      | 100%       | Palier 1     |
+| ChatGPT Cloud      | Itinéraire   | Few-Shot  | ✅ 1                 | Faible      | 100%       | Palier 2     |
+| ChatGPT Cloud      | Aéroport     | Few-Shot  | ❌ 0                 | Faible      | 100%       | Palier 2     |
+| ChatGPT Cloud      | Footer       | Few-Shot  | ✅ 1                 | Faible      | 100%       | Palier 2     |
+| Claude Cloud       | Itinéraire   | Zero-Shot | ✅ 1                 | Faible      | 100%       | Palier 2     |
+| Claude Cloud       | Aéroport     | Zero-Shot | ❌ 0                 | Faible      | 100%       | Palier 2     |
+| Claude Cloud       | Footer       | Zero-Shot | ✅ 1                 | Faible      | 100%       | Palier 2     |
+| Claude Cloud       | Itinéraire   | Few-Shot  | ✅ 1                 | Faible      | 100%       | Palier 3     |
+| Claude Cloud       | Aéroport     | Few-Shot  | ✅ 1                 | Faible      | 100%       | Palier 3     |
+| Claude Cloud       | Footer       | Few-Shot  | ✅ 1                 | Faible      | 100%       | Palier 3     |
+| Mistral Cloud      | (Tous)       | Zero-Shot | ❌ 0                 | Beaucoup    | 20%        | Palier 1     |
+| Mistral Cloud      | (Tous)       | Few-Shot  | ✅ 1                 | Faible      | 100%       | Palier 2     |
+| DeepSeek Local     | (Tous)       | N/A       | ✅ 1                 | Faible      | 100%       | Palier 2     |
+| Claude Local       | (Tous)       | N/A       | ✅ 1                 | Faible      | 100%       | Palier 2     |
+| GitHub Copilot     | (Tous)       | N/A       | ✅ 1                 | Faible      | 100%       | Palier 2     |
+
+---
+
 ## 📄 Licence
 
 Ce projet est partagé à des fins académiques uniquement dans le cadre d'un mémoire de fin d'études. Toute réutilisation commerciale est interdite.
