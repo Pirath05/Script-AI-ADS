@@ -52,6 +52,10 @@ Trois scénarios fonctionnels représentatifs du site Bonjour RATP ont été sé
 | DeepSeek-R1 7B | Terminal — PC personnel |
 | Claude Code via Ollama | CLI — PC personnel |
 
+### Cloud/Local
+| Modèle | Environnement |
+|--------|--------------|
+| Github Copilot (Copilot) | Editeur — Online |
 ---
 
 ## 🛠️ Stack technique
