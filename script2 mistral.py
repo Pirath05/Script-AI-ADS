@@ -52,7 +52,7 @@ def safe_click(locator, page, allow_navigation=False, timeout=10000):
                 return False
 
 def test_aeroports_parcours(page):
-    url = "https://www.preprod.bonjour-ratp.fr/aeroports/"
+    url = "https://www.bonjour-ratp.fr/aeroports/"
     page.goto(url, timeout=20000)
     page.wait_for_load_state("networkidle", timeout=15000)
 
