@@ -16,7 +16,7 @@ def page(browser):
     page.close()
 
 def test_footer_links(page):
-    url_base = "https://www.preprod.bonjour-ratp.fr/"
+    url_base = "https://www.bonjour-ratp.fr/"
     page.goto(url_base)
 
     try:
@@ -59,7 +59,7 @@ def test_footer_links(page):
     if lien_violences.count() > 0:
         with page.expect_navigation():
             lien_violences.click()
-        assert page.url == "https://www.preprod.bonjour-ratp.fr/aide-contact/?question=je-suis-victime-ou-temoin-d-une-agression"
+        assert page.url == "https://www.bonjour-ratp.fr/aide-contact/?question=je-suis-victime-ou-temoin-d-une-agression"
 
     page.go_back()
     page.wait_for_load_state("load")
