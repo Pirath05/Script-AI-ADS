@@ -46,16 +46,17 @@ Trois scénarios fonctionnels représentatifs du site Bonjour RATP ont été sé
 | ChatGPT (OpenAI) | Zero-Shot & Few-Shot |
 | Mistral Codestral-2501 | Zero-Shot & Few-Shot |
 
-### Local
+### Local 100%
 | Modèle | Environnement |
 |--------|--------------|
 | DeepSeek-R1 7B | Terminal — PC personnel |
-| Claude Code via Ollama | CLI — PC personnel |
+
 
 ### Cloud/Local
 | Modèle | Environnement |
 |--------|--------------|
 | Github Copilot (Copilot) | Editeur — Online |
+| Claude Code | CLI — PC personnel |
 ---
 
 ## 🛠️ Stack technique
