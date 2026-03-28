@@ -1,10 +1,10 @@
-# 🤖 AI-Generated Playwright Test Scripts — Bonjour RATP
+# AI-Generated Playwright Test Scripts — Bonjour RATP
 
 > Scripts de tests fonctionnels générés par IA (Cloud & Local) dans le cadre d'une étude comparative sur l'automatisation QA assistée par intelligence artificielle.
 
 ---
 
-## ⚠️ Note de confidentialité
+## Note de confidentialité
 
 Les scripts présents dans ce dépôt sont des **versions publiques anonymisées**.
 
@@ -17,7 +17,7 @@ Dans un souci de conformité et de sécurité interne à **RATP Smart Systems**,
 
 ---
 
-## 📋 Contexte
+## Contexte
 
 Ce dépôt s'inscrit dans une étude comparative menée dans le cadre d'un mémoire de fin d'études portant sur l'**automatisation des tests QA par l'IA générative**.
 
@@ -25,7 +25,7 @@ L'objectif est d'évaluer et comparer plusieurs modèles IA (Cloud et Local) sur
 
 ---
 
-## 🗂️ Scénarios de tests
+## Scénarios de tests
 
 Trois scénarios fonctionnels représentatifs du site Bonjour RATP ont été sélectionnés :
 
@@ -37,7 +37,7 @@ Trois scénarios fonctionnels représentatifs du site Bonjour RATP ont été sé
 
 ---
 
-## 🧠 Modèles IA évalués
+## Modèles IA évalués
 
 ### Cloud
 | Modèle | Stratégies |
@@ -59,7 +59,7 @@ Trois scénarios fonctionnels représentatifs du site Bonjour RATP ont été sé
 | Claude Code | CLI — PC personnel |
 ---
 
-## 🛠️ Stack technique
+## Stack technique
 
 - **Langage** : Python 3.11+
 - **Framework** : [Playwright](https://playwright.dev/python/) (sync API)
@@ -69,7 +69,7 @@ Trois scénarios fonctionnels représentatifs du site Bonjour RATP ont été sé
 
 ---
 
-## 🧪 Résultats par modèle et stratégie
+## Résultats par modèle et stratégie
 
 | Modèle / Outil     | Scénario     | Stratégie | Succès (Fonctionnel) | Corrections | Conformité | Palier Temps |
 |--------------------|--------------|-----------|----------------------|-------------|------------|--------------|
@@ -93,6 +93,6 @@ Trois scénarios fonctionnels représentatifs du site Bonjour RATP ont été sé
 
 ---
 
-## 📄 Licence
+## Mentions
 
 Ce projet est partagé à des fins académiques uniquement dans le cadre d'un mémoire de fin d'études. Toute réutilisation commerciale est interdite.
