@@ -46,17 +46,16 @@ Trois scénarios fonctionnels représentatifs du site Bonjour RATP ont été sé
 | ChatGPT (OpenAI) | Zero-Shot & Few-Shot |
 | Mistral Codestral-2501 | Zero-Shot & Few-Shot |
 
-### Local 100%
+### Local 
 | Modèle | Environnement |
 |--------|--------------|
 | DeepSeek-R1 7B | Terminal — PC personnel |
-
+| Claude Code | CLI — PC personnel |
 
 ### Cloud/Local
 | Modèle | Environnement |
 |--------|--------------|
 | Github Copilot (Copilot) | Editeur — Online |
-| Claude Code | CLI — PC personnel |
 ---
 
 ## Stack technique
@@ -77,7 +76,7 @@ Trois scénarios fonctionnels représentatifs du site Bonjour RATP ont été sé
 | ChatGPT Cloud      | Aéroport     | Zero-Shot | ❌ 0                 | Faible      | 100%       | Palier 1     |
 | ChatGPT Cloud      | Footer       | Zero-Shot | ❌ 0                 | Faible      | 100%       | Palier 1     |
 | ChatGPT Cloud      | Itinéraire   | Few-Shot  | ✅ 1                 | Faible      | 100%       | Palier 2     |
-| ChatGPT Cloud      | Aéroport     | Few-Shot  | ❌ 0                 | Faible      | 100%       | Palier 2     |
+| ChatGPT Cloud      | Aéroport     | Few-Shot  | ✅ 1                 | Faible      | 100%       | Palier 2     |
 | ChatGPT Cloud      | Footer       | Few-Shot  | ✅ 1                 | Faible      | 100%       | Palier 2     |
 | Claude Cloud       | Itinéraire   | Zero-Shot | ✅ 1                 | Faible      | 100%       | Palier 2     |
 | Claude Cloud       | Aéroport     | Zero-Shot | ❌ 0                 | Faible      | 100%       | Palier 2     |
