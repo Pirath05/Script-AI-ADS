@@ -10,7 +10,6 @@ Les scripts présents dans ce dépôt sont des **versions publiques anonymisées
 
 Dans un souci de conformité et de sécurité interne à **RATP Smart Systems**, les éléments suivants ont été **modifiés ou supprimés** par rapport aux scripts originaux exécutés en préproduction :
 
-- Les **URLs de préproduction** ont été remplacées par les URLs publiques de production (`https://www.bonjour-ratp.fr/`)
 - Les **sélecteurs CSS et XPath spécifiques** à l'environnement de préproduction ont été adaptés ou remplacés par des sélecteurs génériques équivalents
 - Les **classes CSS internes** non publiques ont été neutralisées avec des sélecteurs de fallback robustes
 - Certains **éléments sensibles** (identifiants internes, paramètres d'environnement) ont été supprimés
